@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/assests/css/index.css">
+    <link rel="stylesheet" href="/assests/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="/assests/css/theme.css" id="themeCss"> -->
+    <script src="https://kit.fontawesome.com/52520e14d5.js" crossorigin="anonymous" defer></script>
+    <!-- <script src="/assests/js/theme.js" defer></script> -->
+    <script src="/assests/js/menuFilter.js" defer></script>
+    <script src="/assests/js/slider.js" defer></script>
+    <script src="./assests/js/scroll.js" defer></script>
+    <title>Feel The Taste</title>
+</head>
+<body>
+    <header id="header">
+        <div class="head-contact">
+            <div class="top-info-bar">
+                <div class="contact">
+                    <div class="top-email icon">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h4>Email: Info@Restaurant.Com</h4>
+                    </div>
+                    <div class="top-phone icon">
+                        <i class="fa-solid fa-phone"></i>
+                        <h4>Phone: +1 800 123 4567</h4>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="book-table">Book A Table</a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="nav navBar">
+                <img src="/images/white-logo.png" id="logo">
+                <div class="nav-buttons">
+                    <a href="header" class="navLink current">Home</a>
+                    <a href="story" class="navLink">Our Story</a>
+                    <a href="menu" class="navLink">Menu</a>
+                    <a href="bookATable" class="navLink">Book A Table</a>
+                    <a href="gallarySlider" class="navLink">Gallery</a>
+                    <a href="mainFooter" class="navLink">Location</a>
+                </div>
+            </div>
+            <div class="smallNav navBar">
+                <img src="/images/white-logo.png" id="smallLogo">
+                <div class="nav-buttons" id="navBtn">
+                    <a href="header" class="navLink current">Home</a>
+                    <a href="story" class="navLink">Our Story</a>
+                    <a href="menu" class="navLink">Menu</a>
+                    <a href="bookATable" class="navLink">Book A Table</a>
+                    <a href="mediumBookATable" class="navLink">Book A Table</a>
+                    <a href="smallBookATable" class="navLink">Book A Table</a>
+                    <a href="gallarySlider" class="navLink">Gallery</a>
+                    <a href="mainFooter" class="navLink">Location</a>
+                </div>
+                <i class="fa-solid fa-bars" id="hamBurger"></i>
+            </div>
+        </nav>
+        <div class="slider">
+            <div class="sliderTextBox">
+                <div id="slide-text1" class="slider-text" align="center">Welcome To</div>
+                <div id="slide-text2" class="slider-text" align="center">Grand</div>
+                <div id="slide-text3" class="slider-text" align="center">Restaurant & Bar Since 1987</div>
+                <button class="vMenu" id="vMenu1" align="center">Today's Menu</button>
+                <button class="vMenu" id="vMenu2" align="center">Book A Table</button>
+            </div>
+            <div class="slideButtons">
+                <span>
+                    <div id="slideBtn1"></div>
+                    <div id="slideBtn2"></div>
+                    <div id="slideBtn3"></div>
+                </span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="story" class="section toRev">
+            <div class="storyCon">
+                <div class="storyText">
+                    <div align="center" class="aboutUs">Our Story</div>
+                    <div class="aboutUsP" align="center">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, aspernatur quibusdam voluptate ullam quam mollitia error beatae officia repudiandae. Architecto dolorum quod incidunt nobis maxime dolorem sed voluptates dignissimos iure optio porro, sapiente quas alias harum repellat perferendis deleniti asperiores qui, doloribus pariatur obcaecati culpa corrupti accusantium quis.
+                    </div>
+                </div>
+                <img src="/images/story.jpg" class="storyImage">
+            </div>
+        </section>
+        <section id="menu" class="section">
+            <div class="menu toRev" id="menuInside">
+                <div class="menuTitle">Our Menu</div>
+                <div class="filterButtons">
+                    <button id="filAll" class="filBtn filSel">All</button>
+                    <button id="filBreakfast" class="filBtn">Breakfast</button>
+                    <button id="filLunch" class="filBtn">Lunch</button>
+                    <button id="filDinner" class="filBtn">Dinner</button>
+                    <button id="filSweet" class="filBtn">Sweet</button>
+                    <button id="filSnacks" class="filBtn">Snacks</button>
+                </div>
+                <div class="foodItems">
+                    <div class="foodItem breakfast dinner">
+                        <img src="/images/food/bread omlet.jpg">
+                        <div class="foodText">
+                            <h3>
+                                Bread Omlet
+                                <span>$ 5</span>
+                            </h3>
+                            <p>
+                                <span>Sauce</span>
+                                <span>Fruit</span>
+                                <span>Milk</span>
+                            </p>
+                            <p>
+                                <span>Cherry</span>
+                                <span>Tomato</span>
+                                <span>Potato</span>
+                            </p>
+                            <p class="lastIng">
+                                <span>Chilli</span>
+                                <span>Vegetable</span>
+                                <span>Strawberry</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="foodItem sweet snacks">
+                        <img src="/images/food/cake.jpg">
+                        <div class="foodText">
+                            <h3>
+                                Puff Cake
+                                <span>$ 2</span>
+                            </h3>
+                            <p>
+                                <span>Sauce</span>
+                                <span>Fruit</span>
+                                <span>Milk</span>
+                            </p>
+                            <p>
+                                <span>Cherry</span>
+                                <span>Tomato</span>
+                                <span>Potato</span>
+                            </p>
+                            <p class="lastIng">
+                                <span>Chilli</span>
+                                <span>Vegetable</span>
+                                <span>Strawberry</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="foodItem breakfast">
+                        <img src="/images/food/chocolate coffee.jpg">
+                        <div class="foodText">
+                            <h3>
+                                Chocolate Coffee
+                                <span>$ 12</span>
+                            </h3>
+                            <p>
+                                <span>Sauce</span>
+                                <span>Fruit</span>
+                                <span>Milk</span>
+                            </p>
+                            <p>
+                                <span>Cherry</span>
+                                <span>Tomato</span>
+                                <span>Potato</span>
+                            </p>
+                            <p class="lastIng">
+                                <span>Chilli</span>
+                                <span>Vegetable</span>
+                                <span>Strawberry</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="foodItem dinner lunch">
+                        <img src="/images/food/fish.jpg">
+                        <div class="foodText">
+                            <h3>
+                                Tomato Fish
+                                <span>$ 22</span>
+                            </h3>
+                            <p>
+                                <span>Sauce</span>
+                                <span>Fruit</span>
+                                <span>Milk</span>
+                            </p>
+                            <p>
+                                <span>Cherry</span>
+                                <span>Tomato</span>
+                                <span>Potato</span>
+                            </p>
+                            <p class="lastIng">
+                                <span>Chilli</span>
+                                <span>Vegetable</span>
+                                <span>Strawberry</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="foodItem sweet lunch lastList">
+                        <img src="/images/food/fruit pancake.jpg">
+                        <div class="foodText">
+                            <h3>
+                                Fruit Pancake
+                                <span>$ 8</span>
+                            </h3>
+                            <p>
+                                <span>Sauce</span>
+                                <span>Fruit</span>
+                                <span>Milk</span>
+                            </p>
+                            <p>
+                                <span>Cherry</span>
+                                <span>Tomato</span>
+                                <span>Potato</span>
+                            </p>
+                            <p class="lastIng">
+                                <span>Chilli</span>
+                                <span>Vegetable</span>
+                                <span>Strawberry</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="foodItem breakfast dinner lastList">
+                        <img src="/images/food/omlet.jpg">
+                        <div class="foodText">
+                            <h3>
+                                Omlet
+                                <span>$ 4</span>
+                            </h3>
+                            <p>
+                                <span>Sauce</span>
+                                <span>Fruit</span>
+                                <span>Milk</span>
+                            </p>
+                            <p>
+                                <span>Cherry</span>
+                                <span>Tomato</span>
+                                <span>Potato</span>
+                            </p>
+                            <p class="lastIng">
+                                <span>Chilli</span>
+                                <span>Vegetable</span>
+                                <span>Strawberry</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="foodItem lunch dinner lastList">
+                        <img src="/images/food/salad dish.jpg">
+                        <div class="foodText">
+                            <h3>
+                                Salad Dish
+                                <span>$ 32</span>
+                            </h3>
+                            <p>
+                                <span>Sauce</span>
+                                <span>Fruit</span>
+                                <span>Milk</span>
+                            </p>
+                            <p>
+                                <span>Cherry</span>
+                                <span>Tomato</span>
+                                <span>Potato</span>
+                            </p>
+                            <p class="lastIng">
+                                <span>Chilli</span>
+                                <span>Vegetable</span>
+                                <span>Strawberry</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="foodItem sweet snacks lastList">
+                        <img src="/images/food/vanilla cake.jpg">
+                        <div class="foodText">
+                            <h3>
+                                Vanilla Cake
+                                <span>$ 16</span>
+                            </h3>
+                            <p>
+                                <span>Sauce</span>
+                                <span>Fruit</span>
+                                <span>Milk</span>
+                            </p>
+                            <p>
+                                <span>Cherry</span>
+                                <span>Tomato</span>
+                                <span>Potato</span>
+                            </p>
+                            <p class="lastIng">
+                                <span>Chilli</span>
+                                <span>Vegetable</span>
+                                <span>Strawberry</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="bookATable" class="section toRev">
+            <div class="bookTit">Book A Table</div>
+            <div class="bookingInput">
+                <div class="bookRow">
+                    <div>
+                        <input type="number" placeholder="No Of People">
+                        <i class="fa-solid fa-people-group"></i>
+                    </div>
+                    <input type="date">
+                    <input type="time">
+                </div>
+                <div class="bookRow">
+                    <div>
+                        <input type="text" placeholder="Your Full name">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div>
+                        <input type="number" placeholder="Phone">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                </div>
+            </div>
+            <button id="bookTable">Book Now</button>
+        </section>
+        <section id="mediumBookATable" class="section toRev">
+            <div class="bookTit">Book A Table</div>
+            <div class="bookingInput">
+                <div class="bookRow">
+                    <div>
+                        <input type="number" placeholder="No Of People">
+                        <i class="fa-solid fa-people-group"></i>
+                    </div>
+                    <input type="date">
+                </div>
+                <div class="bookRow">
+                    <input type="time">
+                    <div>
+                        <input type="text" placeholder="Your Full name">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+                <div class="bookRow">
+                    <div>
+                        <input type="email" placeholder="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div>
+                        <input type="number" placeholder="Phone">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                </div>
+            </div>
+            <button id="bookTable">Book Now</button>
+        </section>
+        <section id="smallBookATable" class="section toRev">
+            <div class="bookTit">Book A Table</div>
+            <div class="bookingInput">
+                <div>
+                    <input type="number" placeholder="No Of People">
+                    <i class="fa-solid fa-people-group"></i>
+                </div>
+                <input type="date">
+                <input type="time">
+                <div>
+                    <input type="text" placeholder="Your Full name">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div>
+                    <input type="email" placeholder="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                    <input type="number" placeholder="Phone">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+            </div>
+            <button id="bookTable">Book Now</button>
+        </section>
+        <section id="gallarySlider" class="section toRev">
+            <div class="sImg" id="sImg"></div>
+            <div class="sImg" id="eImg"></div>
+        </section>
+    </main>
+    <footer>
+        <section id="mainFooter" class="section toRev">
+            <div class="footerText">
+                <div class="openHours">
+                    <div class="hourTitle footerTitle">Open Hours</div>
+                    <div class="timings">
+                        <div class="timeDay footText">
+                            <div>Monday</div>
+                            <div>Tuesday</div>
+                            <div>Wednusday</div>
+                            <div>Thrusday</div>
+                            <div>Friday</div>
+                            <div>Saturday</div>
+                            <div>Sunday</div>
+                        </div>
+                        <div class="timeTiming footText">
+                            <div>9:00 AM - 10:00 PM</div>
+                            <div>9:00 AM - 10:00 PM</div>
+                            <div>9:00 AM - 10:00 PM</div>
+                            <div>9:00 AM - 10:00 PM</div>
+                            <div>9:00 AM - 10:00 PM</div>
+                            <div>9:00 AM - 10:00 PM</div>
+                            <div>Closed</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="location">
+                    <div class="locationTitle footerTitle">Location</div>
+                    <div class="locationText footText">
+                        198 West 21th Street, Suite 721
+                        New York NY 10016
+                    </div>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79454.63120435645!2d-0.21047894151016694!3d51.51400074650204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876035768a99e75%3A0xaf7a08783e07f5a4!2sPadella!5e0!3m2!1sen!2sin!4v1654759880361!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section id="lowerFooter">
+            <div class="img">
+                <img src="./images/logo.png">
+            </div>
+            <div class="footIcons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="footerContact">
+                <div class="footerC">
+                    <div class="email footerCon">
+                        <i class="fa-solid fa-envelope"></i><div class="emailText">Info@Restaurant.Com</div>
+                    </div>
+                    <div class="phone footerCon">
+                        <i class="fa-solid fa-phone"></i><div class="phoneText">+1 800 123 4567</div>
+                    </div>
+                    <div class="locationIcon footerCon">
+                        <i class="fa-solid fa-location-dot"></i><div class="address" align="center">198 West 21th Street, Suite 721, New York NY 10016</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerSocial" align="center">
+                &#169 1987 Grand Restaurant & Bar | All Right Reserved.
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

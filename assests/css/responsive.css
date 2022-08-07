@@ -1,0 +1,878 @@
+@media screen and (max-width: 1350px){
+    .menu{
+        height: 726.3px;
+    }
+    #menu{
+        height: 941.5px;
+    }
+    .foodText h3{
+        width: 300px;
+    }
+    .foodText{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1280px){
+    #menu{
+        height: 914.6px;
+    }
+    .menu{
+        height: 753.2px;
+        width: 90%;
+    }
+    #bookATable{
+        height: 322.8px;
+    }
+}
+@media screen and (max-width: 1200px){
+    #menu{
+        height: 968.6px;
+    }
+    .menu{
+        width: 95%;
+        height: 914.6px;
+    }
+    .storyCon{
+        width: 95vw;
+    }
+    header{
+        height: 700px;
+    }
+}
+@media screen and (max-width: 1080px){
+    .footerC{
+        width: 90%;
+    }
+    .foodText h3{
+        width: 270px;
+    }
+    .foodText{
+        width: 270px;
+    }
+    #menu{
+        height: 968.6px;
+    }
+    .menu{
+        height: 914.6px;
+    }
+    .aboutUsP{
+        width: 40vw;
+    }
+    .storyCon{
+        width: 95vw;
+    }
+}
+@media screen and (max-width: 1000px){
+    header{
+        height: 650px;
+    }
+    .nav{
+        display: none;
+    }
+    .smallNav{
+        display: flex;
+    }
+    #menu{
+        height: 1129.8px;
+    }
+    .menu{
+        height: 1076px;
+    }
+    .navBar{
+        color: white;
+        font-size: 30px
+    }
+    .bTLarge{
+        display: none;
+    }
+    
+    .bTMedium{
+        display: block;
+    }
+    
+    .bTSmall{
+        display: none;
+    }
+    .nav-buttons{
+        position: fixed;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: white;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.5s ease;
+    }
+    .nav-buttons-active{
+        position: fixed;
+        transform: translateY(66%);
+        left: 0;
+        width: 100%;
+        padding: 0 7%;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: white;
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .nav-buttons a{
+        color: black;
+        height: 43.04px;
+    }
+    .nav-buttons-active a{
+        color: black;
+        height: 43.04px;
+        border: none;
+    }
+    .bugOpen{
+        background-color: white;
+    }
+    .bugOpen i{
+        color: black;
+    }
+    .openHours{
+        height: 70%;
+    }
+    .footerTitle{
+        font-size: 45px;
+    }
+    .footText{
+        font-size: 23px;
+    }
+    footer{
+        height: 690px;
+    }
+    .location{
+        height: 20%;
+    }
+    .footerC{
+        width: 90%;
+    }
+    #bookATable{
+        display: none;
+    }
+    #mediumBookATable{
+        display: block;
+        width: 100%;
+        height: 430.4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    a[href="bookATable"] {
+        display: none;
+    }
+
+    a[href="mediumBookATable"] {
+        display: flex;
+    }
+    
+    a[href="smallBookATable"] {
+        display: none;
+    }
+    #mediumBookATable button{
+        width: 300px;
+        height: 50px;
+        background-color: #FFA33E;
+        border: none;
+        font-size: 18px;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+    
+    #mediumBookATable button:hover{
+        background-color: white;
+        border: 2px solid #FFA33E;
+        cursor: pointer;
+    }
+    .bookRow{
+        width: 750px;
+    }
+    .foodItem{
+        width: 420px;
+    }
+    .aboutUs{
+        transform: translateY(-5px);
+    }
+}
+@media screen and (max-width: 900px){
+    .head-contact{
+        visibility: hidden;
+    }
+    .footerC{
+        width: 100%;
+    }
+    .foodItems{
+        grid-template-columns: auto;
+    }
+    .foodItem{
+        width: 720px;
+    }
+    .foodText{
+        width: 400px;
+    }
+    .foodText h3{
+        width: 400px;
+    }
+    .foodText p span{
+        width: 120px;
+    }
+    .lastList{
+        display: none;
+    }
+    .storyImage{
+        display: none;
+    }
+    .storyText{
+        width: 90%;
+    }
+    .aboutUsP{
+        width: 100%;
+    }
+    #story{
+        height: 295.9px;
+    }
+    .storyCon{
+        height: 295.9px;
+    }
+    .storyText{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;        
+    }
+    .timings{
+        font-size: 23px;
+    }
+    .footerContact .footerCon i{
+        margin-right: 5px;
+    }
+    .visible{
+        display: flex;
+    }
+    .nonVisible{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px){
+    footer{
+        height: 1000px;
+    }
+    #mainFooter{
+        height: 75%;
+        flex-direction: column-reverse;
+    }
+    #lowerFooter{
+        height: 25%;
+    }
+    .map{
+        width: 80%;
+    }
+    .footerText{
+        width: 80vw;
+    }
+    .openHours{
+        width: 80vw;
+    }
+    .timeTiming{
+        letter-spacing: 0.3rem;
+    }
+    .location{
+        height: 75.32px;
+    }
+    .timings{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 760px){ 
+    .footIcons{
+        width: 30%;
+    }
+    footer{
+        height: 1210.5px;
+    }
+    #lowerFooter{
+        height: 25%;
+    }
+    #mainFooter,#smallBookATable,#mediumBookATable,#bookATable,#menu,#story,#header{
+        overflow: hidden;
+    }
+    .footerContact{
+        height: 80.7px;
+    }
+    .footerC{
+        height: 80.7px;
+        flex-direction: column;
+    }
+    .footerCon{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .footerContact .footerCon i{
+        margin-right: 15px;
+    }
+    .section{
+        padding: 115px 0 0 0;
+    }
+    #gallarySlider{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 680px){
+    #sImg{
+        width: 100%;
+    }
+    #eImg{
+        display: none;
+    }
+    .bookRow{
+        width: 600px;
+    }
+    .bookRow div{
+        width: 260px;
+    }
+    .bookRow input{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 655px){
+    .filterButtons{
+        width: 550px;
+    }
+    .foodItems{
+        width: 635px;
+    }
+    .foodItem{
+        width: 635px;
+    }
+    .location{
+        height: 118.36px;
+    }
+}
+@media screen and (max-width: 600px){
+    .bookRow{
+        width: 550px;
+    }
+    .foodItems{
+        width: 555px;
+    }
+    .foodItem{
+        width: 555px;
+    }
+    .foodText{
+        width: 300px;
+    }
+    .foodText h3{
+        width: 300px;
+    }
+    .foodText p span{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 550px){
+    .map{
+        height: 55%;
+        width: 80%;
+    }
+    #mediumBookATable{
+        display: none;
+    }
+    #smallBookATable{
+        display: block;
+    }
+    #smallBookATable{
+        width: 100%;
+        height: 807px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #smallBookATable button{
+        width: 350px;
+        height: 50px;
+        background-color: #FFA33E;
+        border: none;
+        font-size: 18px;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+    #smallBookATable button:hover{
+        background-color: white;
+        border: 2px solid #FFA33E;
+        cursor: pointer;
+    }
+    .bookingInput input{
+        height: 40px;
+        width: 340px;
+        padding: 0 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.1px solid black;
+    }
+    
+    .bookingInput div{
+        height: 40px;
+        width: 350px;
+        border: 0.1px solid black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 4px;
+    }
+    
+    .bookingInput div i{
+        font-size: 13px;
+    }
+    
+    .bookingInput div input{
+        width: 85%;
+        border: none;
+    }
+    
+    .bookingInput div input, input:focus{
+        outline: none;
+    }
+    .bookTit{
+        transform: translateY(-30px);
+    }
+    #slide-text1{
+        font-size: 75px;
+    }
+    #slide-text2{
+        font-size: 50px;
+    }
+    .timeTiming{
+        letter-spacing: 2px;
+    }
+    .menu{
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+        border-top: 2px solid #FFA33E;
+        border-bottom: 2px solid #FFA33E;
+    }
+    .filterButtons{
+        width: 500px;
+    }
+    a[href="bookATable"] {
+        display: none;
+    }
+
+    a[href="mediumBookATable"] {
+        display: none;
+    }
+    
+    a[href="smallBookATable"] {
+        display: flex;
+    }
+    .bTLarge{
+        display: none;
+    }
+    
+    .bTMedium{
+        display: none;
+    }
+    
+    .bTSmall{
+        display: block;
+    }
+}
+@media screen and (max-width: 500px){
+    .aboutUsP{
+        height: 240px;
+    }
+    .foodItem{
+        width: 465px;
+    }
+    .foodItems{
+        width: 465px;
+    }
+    .foodText{
+        width: 270px;
+    }
+    .foodText h3{
+        width: 270px;
+    }
+    .foodText p span{
+        width: 90px;
+    }
+    .filterButtons{
+        width: 350px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+    }
+    .filBtn{
+        height: 40px;
+    }
+}
+@media screen and (max-width: 430px){
+    #lowerFooter .img{
+        height: 25%;
+    }
+    #mainFooter{
+        height: 65%;
+    }
+    #lowerFooter{
+        height: 35%;
+    }
+    footer{
+        height: 1300px;
+    }
+    .foodItem,.foodItems{
+        width: 375px;
+    }
+    .foodText{
+        width: 230px;
+    }
+    .foodText h3{
+        width: 220px;
+    }
+    .foodText p span{
+        width: 70px;
+    }
+    .lastIng{
+        visibility: hidden;
+    }
+    .timings,.locationText{
+        font-size: 23px;
+    }
+    .openHours,.footerText{
+        width: 90vw;
+    }
+    .address{
+        height: 45px;
+    }
+    .timeDay{
+        width: 34%;
+    }
+    .aboutUs{
+        transform: translateY(-10px);
+        height: 120px;
+    }
+    .aboutUsP{
+        height: 400px;
+    }
+    #story,.storyCon{
+        height: 376.6px;
+    }
+    .footerContact .footerCon{
+        flex-direction: column;
+    }
+    .footIcons{
+        width: 40%;
+    }
+    .footerSocial{
+        height: 15%;
+    }
+}
+@media screen and (max-width: 370px){
+    .aboutUsP{
+        height: 440px;
+    }
+    .foodItem, .foodItems{
+        width: 320px;
+    }
+    .foodText{
+        width: 190px;
+    }
+    .foodText h3{
+        width: 190px;
+        font-size: 17px;
+    }
+    .bookingInput div{
+        width: 270px;
+    }
+    .bookingInput input{
+        width: 260px;
+    }
+    #smallBookATable button{
+        width: 270px;
+    }
+    .timings, .locationText{
+        font-size: 21px;
+    }
+    .timeTiming{
+        letter-spacing: 1px;
+    }
+    .timeDay{
+        width: 35%;
+    }
+    .timeTiming{
+        width: 65%;
+    }
+    .openHours, .footerText{
+        width: 95vw;
+    }
+}
+
+
+@media (max-width: 1300px) and (max-height: 850px){
+    footer{
+        height: 1300px;
+    }
+    #lowerFooter .img{
+        height: 120px;
+    }
+    #lowerFooter{
+        height: 40%;
+    }
+    #mainFooter{
+        height: 60%;
+    }
+    .footerContact, .footerC{
+        height: 70px;
+    }
+    .footerSocial{
+        height: 30px;
+    }
+}
+@media (max-width: 1100px) and (max-height: 850px){
+    footer{
+        height: 1100px;
+    }
+    #lowerFooter{
+        height: 30%;
+    }
+}
+@media (max-width: 950px) and (max-height: 1400px){
+    footer{
+        height: 1750px;
+    }
+    #mainFooter{
+        height: 30%;
+    }
+    #lowerFooter{
+        height: 35%;
+    }
+    #lowerFooter .img{
+        height: 20%;
+    }
+    .footerContact{
+        height: 10%;
+    }
+    .footerSocial{
+        height: 5%;
+    }
+}
+@media (max-width: 850px) and (max-height: 1200px){
+    footer{
+        height: 1500px;
+    }
+    #mainFooter{
+        height: 35%;
+    }
+    #lowerFooter{
+        height: 35%;
+    }
+    #lowerFooter .img{
+        height: 20%;
+    }
+}
+@media (max-width: 800px) and (max-height: 1040px){
+    footer{
+        height: 1750px;
+    }
+    #mainFooter{
+        height: 50%;
+    }
+    #lowerFooter{
+        height: 20%;
+    }
+    .footerContact{
+        height: 15%;
+    }
+    #lowerFooter .img{
+        height: 35%;
+    }
+    .footerSocial{
+        height: 15%;
+    }
+}
+@media (max-width: 760px) and (max-height: 550px){
+    footer{
+        height: 1100px;
+    }
+    #lowerFooter{
+        height: 30%;
+    }
+    .footerContact, .footerC{
+        height: 120px;
+    }
+}
+@media (max-width: 430px) and (max-height: 930px){
+    #lowerFooter{
+        height: 45%;
+    }
+    #lowerFooter .img{
+        height: 20%;
+    }
+    .footerSocial{
+        height: 5%;
+    }
+    .footerContact{
+        height: 22%;
+    }
+}
+@media (max-width: 450px) and (max-height: 900px) {
+        footer{
+            height: 1800px;
+        }
+        #lowerFooter .img{
+            height: 120px;
+        }
+        #mainFooter{
+            height: 55%;
+        }
+        .footerContact, .footerC{
+            height: 150px;
+        }
+        .footerSocial{
+            height: 30px;
+        }
+        #lowerFooter{
+            min-height: 355px;
+            overflow: visible;
+            height: 38%;
+        }
+        footer,#mainFooter{
+            overflow: visible;
+        }
+}
+@media (max-width: 400px) and (max-height: 860px){
+    #lowerFooter{
+        min-height: 355px;
+        height: 40%;
+        overflow: visible;
+    }
+    footer,#mainFooter{
+        overflow: visible;
+    }
+    footer{
+        height: 1700px;
+    }
+    #lowerFooter .img{
+        height: 120px;
+    }
+    #mainFooter{
+        height: 65%;
+    }
+    .footerContact, .footerC{
+        height: 150px;
+    }
+    .footerSocial{
+        height: 90px;
+    }
+}
+@media (max-width: 550px) and (max-height: 750px){
+    footer{
+        height: 1500px;
+    }
+    #lowerFooter{
+        min-height: 355px;
+        height: 36%;
+        overflow: visible;
+    }
+    #lowerFooter .img{
+        height: 120px;
+    }
+    #mainFooter{
+        height: 65%;
+    }
+    .footerContact, .footerC{
+        height: 150px;
+    }
+    .footerSocial{
+        height: 40px;
+    }
+}
+@media (max-width: 550px) and (max-height: 550px){
+    footer{
+        height: 1100px;
+    }
+}
+@media (max-width: 400px) and (max-height: 700px){
+        footer{
+            height: 1500px;
+        }
+        #lowerFooter .img{
+            height: 120px;
+        }
+        #mainFooter{
+            height: 65%;
+        }
+        .footerContact, .footerC{
+            height: 150px;
+        }
+        .footerSocial{
+            height: 90px;
+        }
+}
+@media (max-width: 300px) and (max-height: 670px){
+    .footerContact, .footerC{
+        height: 185px;
+    }
+    .footText{
+        font-size: 19px;
+    }
+    .map{
+        height: 45%;
+    }
+    #mainFooter{
+        height: 50%;
+    }
+    #lowerFooter{
+        height: 35%;
+    }
+    footer{
+        height: 1300px;
+    }
+    .bookTit{
+        font-size: 50px;
+    }
+    .foodItem img{
+        width: 105px;
+        height: 105px;
+    }
+    .foodItem, .foodItems{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .foodText{
+        width: 220px;
+    }
+    .foodText h3{
+        width: 220px;
+    }
+    .foodItems{
+        height: 900px;
+    }
+    #story, .storyCon{
+        height: 610px;
+    }
+    .aboutUs{
+        height: 30px;
+        font-size: 60px;
+    }
+    .filterButtons{
+        width: 280px;
+    }
+    .filBtn{
+        padding: 5px 8px;
+    }
+    #slide-text1{
+        font-size: 60px;
+    }
+    #slide-text2{
+        font-size: 40px;
+    }
+    .footIcons{
+        width: 70%;
+    }
+}
