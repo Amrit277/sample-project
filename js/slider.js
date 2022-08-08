@@ -54,7 +54,7 @@ window.addEventListener('load', ()=>{
 })
 
 slideBtn1.addEventListener('click', ()=>{
-    header.style.background = 'url(/images/slider1.jpg)';
+    header.style.background = 'url(./images/slider1.jpg)';
     header.style.backgroundSize = 'cover'
     
     slideBtn1.style.backgroundColor = 'rgb(255, 255, 255)';
@@ -71,7 +71,7 @@ slideBtn1.addEventListener('click', ()=>{
 })
 
 slideBtn2.addEventListener('click', ()=>{
-    header.style.background = 'url(/images/slider2.jpg)';
+    header.style.background = 'url(./images/slider2.jpg)';
     header.style.backgroundSize = 'cover'
     slideBtn2.style.backgroundColor = 'rgb(255, 255, 255)';
     slideBtn1.style.backgroundColor = 'rgba(111, 111, 111, 0.823)';
@@ -86,7 +86,7 @@ slideBtn2.addEventListener('click', ()=>{
 })
 
 slideBtn3.addEventListener('click', ()=>{
-    header.style.background = 'url(/images/slider3.jpg)';
+    header.style.background = 'url(./images/slider3.jpg)';
     header.style.backgroundSize = 'cover'
     slideBtn3.style.backgroundColor = 'rgb(255, 255, 255)';
     slideBtn1.style.backgroundColor = 'rgba(111, 111, 111, 0.823)';
