@@ -8,7 +8,7 @@ localStorage.setItem('theme', 'light')
 
 if(localStorage.getItem('theme') == 'dark'){
     // Locate The Changes Css File
-    themeCss.href = '/assests/css/theme.css'
+    themeCss.href = './assests/css/theme.css'
 }
 else if(localStorage.getItem('theme') == 'light'){
     themeCss.href = ''
@@ -28,14 +28,14 @@ themeBtn.addEventListener('click', ()=>{
 
     // Applying Theme style
     if(localStorage.getItem('theme') == 'dark'){
-        themeCss.href = '/assests/css/theme.css';
-        logo.src = '/images/logo.png';
+        themeCss.href = './assests/css/theme.css';
+        logo.src = './images/logo.png';
         themeIcon.classList.remove('fa-sun');
         themeIcon.classList.add('fa-moon');
     }
     else if(localStorage.getItem('theme') == 'light'){
         themeCss.href = ''
-        logo.src = '/images/white-logo.png'
+        logo.src = './images/white-logo.png'
         themeIcon.classList.remove('fa-moon');
         themeIcon.classList.add('fa-sun')
     }
