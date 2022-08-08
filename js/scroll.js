@@ -36,8 +36,8 @@ setInterval(() => {
         eCou = 1
     }
 
-    sImg.style.background = `url(images/gallary/gallary${cou}.jpg) center`
-    eImg.style.background = `url(images/gallary/gallary${eCou}.jpg) center`
+    sImg.style.background = `url(./images/gallary/gallary${cou}.jpg) center`
+    eImg.style.background = `url(./images/gallary/gallary${eCou}.jpg) center`
     sImg.style.backgroundSize = `cover`
     eImg.style.backgroundSize = `cover`
     cou++;
