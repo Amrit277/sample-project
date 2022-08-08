@@ -36,8 +36,8 @@ setInterval(() => {
         eCou = 1
     }
 
-    sImg.style.background = `url(/images/gallary/gallary${cou}.jpg) center`
-    eImg.style.background = `url(/images/gallary/gallary${eCou}.jpg) center`
+    sImg.style.background = `url(images/gallary/gallary${cou}.jpg) center`
+    eImg.style.background = `url(images/gallary/gallary${eCou}.jpg) center`
     sImg.style.backgroundSize = `cover`
     eImg.style.backgroundSize = `cover`
     cou++;
@@ -54,8 +54,8 @@ window.addEventListener('scroll', ()=>{
         document.getElementById('smallLogo').src = './images/logo.png'
     }
     if(window.scrollY == 0){
-        document.getElementById('logo').src = '/images/white-logo.png'
-        document.getElementById('smallLogo').src = '/images/white-logo.png'
+        document.getElementById('logo').src = './images/white-logo.png'
+        document.getElementById('smallLogo').src = './images/white-logo.png'
         document.getElementById('hamBurger').style.color = 'white'
     }
 })
