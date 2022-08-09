@@ -309,7 +309,7 @@ header::before{
     height: 1080px;
     position: relative;
     width: 100%;
-    background: url('images/menubg.jpg') center;
+    background: url('../images/menubg.jpg') center;
     opacity: 0.8;
     background-size: cover;
     display: flex;
